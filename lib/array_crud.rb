@@ -3,10 +3,11 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ["Human", "Elf", "Dwarf", "Ent"]
+  LOTR_races = ["Human", "Elf", "Dwarf", "Ent"]
 end
 
 def add_element_to_end_of_array(array, element)
+  LOTR_races = ["Human", "Elf", "Dwarf", "Ent"]
   << "Balrog"
 end
 
