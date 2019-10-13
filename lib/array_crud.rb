@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  LOTR_races = ["Human", "Elf", "Dwarf", "Ent"]
-  LOTR_races << "Balrog"
+  ["Human", "Elf", "Dwarf", "Ent"]
+  "Balrog"
 end
 
 def add_element_to_start_of_array(array, element)
